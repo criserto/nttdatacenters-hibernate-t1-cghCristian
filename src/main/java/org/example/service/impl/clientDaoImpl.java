@@ -212,7 +212,6 @@ public class clientDaoImpl implements clientDao {
 
 		CriteriaBuilder builder = s.getCriteriaBuilder();
 		CriteriaDelete<Client> criteriaQuery = builder.createCriteriaDelete(Client.class);
-		Root<Client> root = criteriaQuery.from(Client.class);
 
 		criteriaQuery.from(Client.class);
 		s.createQuery(criteriaQuery).executeUpdate();

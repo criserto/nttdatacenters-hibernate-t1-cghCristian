@@ -15,3 +15,5 @@ Crear los siguientes métodos crud con el diseño DAO mediante Hibernate:
 
 
 En eclipse revisar Run Application para verificar que carga correctamente en caso de recibir un error de carga de clase principal.
+
+Se ha comprobado el funcionamiento con IntelliJ y Eclipse, no he tenido problemas.
